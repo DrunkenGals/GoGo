@@ -11,9 +11,9 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
-        <Menu></Menu>
-        <Searchbar></Searchbar>
+      <div className="title">
+        <Menu className="menu"></Menu>
+        <Searchbar className="searchBar"></Searchbar>
       </div>
     );
   }
