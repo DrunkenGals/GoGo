@@ -12,30 +12,24 @@
   background-image: url("../img/bistro.jpg");
 }
 
-.title{
-  position: relative;
-  height:100%;
+#loginModal{
+  background-color: #232323;
 }
 
-.menu{
+.logo{
   position: relative;
-  height:20%;
 }
 
 .searchBar{
   position: relative;
-  height: 80%;
-}
-
-.searchBar div{
-  position: relative;
-  margin:10%;
 }
 
 #searchField{
+  position: relative;
   background-color:#232323;
   border-color: #232323;
   border-radius: 0%;
+  height:20%;
 }
 
 .content{

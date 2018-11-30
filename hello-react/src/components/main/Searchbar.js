@@ -9,7 +9,7 @@ class Searchbar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="searchBar">
         <SearchField
           accessibilityLabel="Demo Search Field"
           id="searchField"

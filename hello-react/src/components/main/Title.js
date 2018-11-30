@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 
 import Searchbar from "./Searchbar";
 import Menu from "./Menu";
@@ -11,10 +11,13 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="title">
-        <Menu className="menu"></Menu>
-        <Searchbar className="searchBar"></Searchbar>
-      </div>
+      <Fragment>
+        <Menu />
+        <div className="logo">
+        
+        </div>
+        <Searchbar />
+      </Fragment>
     );
   }
 }
