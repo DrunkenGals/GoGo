@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Carousel } from "antd";
-import { Image } from "gestalt";
 
 function onChange(a, b, c) {
   console.log(a, b, c);
@@ -17,14 +16,7 @@ class Center extends Component {
       <div className="container">
         <Carousel afterChange={onChange}>
           <div>
-            <Image
-              alt="wide"
-              color="#000"
-              fit="cover"
-              naturalHeight={1}
-              naturalWidth={1}
-              src="../img/1.png"
-            />
+            <h3>1</h3>
           </div>
           <div>
             <h3>2</h3>
