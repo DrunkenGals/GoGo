@@ -1,5 +1,17 @@
 @import '~antd/dist/antd.css';
-
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Poor+Story');
 body{
   background: black;
 }
+
+.text{
+  font-family: 'Poor Story', cursive;
+font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  color:white;
+} 
+
+/* 
+font1 {
+  font-family: 'Poor Story', cursive;
+} */
