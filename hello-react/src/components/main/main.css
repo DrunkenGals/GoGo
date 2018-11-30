@@ -1,26 +1,66 @@
 @import '~antd/dist/antd.css';
 
 .layout{
-  height:1800px;
+  position: relative;
+  height:1600px;
 }
 
 .header{
-  height:400px;
+  position: relative;
+  height:30%;
   background-color: black;
+  background-image: url("../img/bistro.jpg");
+}
+
+#loginModal{
+  background-color: #232323;
+}
+
+.logo{
+  position: relative;
+}
+
+.searchBar{
+  position: relative;
+}
+
+#searchField{
+  position: relative;
+  background-color:#232323;
+  border-color: #232323;
+  border-radius: 0%;
+  height:20%;
 }
 
 .content{
-  height:1200px;
+  position: relative;
+  height:60%;
 }
+
 .slider{
-  height:600px;
+  position: relative;
+  height:50%;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 500px;
+  line-height: 500px;
+  background: black;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
 }
 
 .registration{
-  height:600px;
+  position: relative;
+  height:50%;
 }
 
 .footer{
-  height:200px;
+  position: relative;
+  height:10%;
   background-color: gray;
 }
